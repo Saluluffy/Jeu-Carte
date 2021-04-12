@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de carte Lucie Laurent</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Jouons aux cartes<br>avec JavaScript.</h1>
+        <p>
+            Découvrez dès maintenant le script idéal pour appréhender le jeu de cartes français. Ce jeu de 52
+            cartes est un jeu de cartes organisées en deux couleurs : noir et rouge et en quatre enseignes françaises :
+            trèfle, carreau, cœur, pique (cet ordre est utilisé dans certains jeux). Les « enseignes » sont plus
+            généralement appelées couleurs. Les figures — rois, dames et valets — sont au nombre de 12 et représentent
+            un personnage. Leur dessin est souvent symétrique par rapport au centre de la carte, la portion au-dessus
+            d'une diagonale étant identique à celle en dessous, permettant de lire les cartes à l'endroit comme à
+            l'envers. Dans les cartes traditionnelles françaises, chacune des figures porte un nom, indiqué
+            verticalement dans les deux coins non-occupés par la valeur de la carte.
+        </p>
+        <div class="buttonBlock">
+            <p id="info"></p>
+            <button id="openClick">Ouvrir le jeu</button>
+            <button id="mixClick">Mélanger le jeu</button>
+            <button id="resetClick">Réinitialiser le jeu</button>
+        </div>
+        <div id="cardsBlock">
+        </div>
+        <p>
+            Une légende relie le jeu de 52 cartes (plus 1 ou 2 jokers) au calendrier : il comporterait quatre couleurs,
+            comme les quatre saisons de l'année, les 13 cartes de chacune des quatre couleurs désignent les 13 mois
+            lunaire et 52 cartes (sans les jokers) comme autant de semaines dans une année. Qui plus est, la somme de
+            toutes les cartes (en posant que les as valent 1, les deux 2 jusqu'aux valets qui valent 11, les dames 12 et
+            les rois 13) aboutit à 364. En ajoutant arbitrairement un joker à 1 point, on aboutit à 365 points, autant
+            que de jours dans une année ordinaire ; avec un deuxième joker, le total monte à 366, autant que de jours
+            dans une année bissextile. Il s'agit toutefois de coïncidences.
+        </p>
+    </div>
+    <footer>
+        <p>Lucie Laurent — MMI 2020</p>
+    </footer>
+</body>
+<script src="js/cartes.js"></script>
+
+</html>

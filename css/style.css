@@ -1,0 +1,199 @@
+/* Style général */
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #3c56a3;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    margin-top: 4em;
+    text-align: center;
+}
+
+/* Style des boutons */
+
+.buttonBlock {
+    width: 39%;
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#openClick {
+    background-color: white;
+    color: #3c56a3;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: 0.8em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#openClick:hover {
+    background-color: #eaeef9;
+    color: #3c56a3;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: 0.8em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#openClick:focus {
+    background-color: #eaeef9;
+    color: #3c56a3;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: 0.8em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    outline:none;
+}
+
+#mixClick {
+    background-color: #1a1f3a;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: 0.8em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#mixClick:hover {
+    background-color: #0e1120;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: 0.8em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#mixClick:focus {
+    background-color: #0e1120;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: 0.8em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    outline:none;
+}
+
+#resetClick {
+    background-color: #1a1f3a;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#resetClick:hover {
+    background-color: #0e1120;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#resetClick:focus {
+    background-color: #0e1120;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    outline:none;
+}
+
+/* Style des cartes */
+
+#cardsBlock {
+    text-align: center;
+}
+
+.card {
+    max-width: 10%;
+    height: auto;
+    padding: 1em;
+}
+
+/* Style des informations */
+
+.info {
+    background-color: #1a1f3a;
+    color: white;
+    border-radius: 0.5em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    border: none;
+}
